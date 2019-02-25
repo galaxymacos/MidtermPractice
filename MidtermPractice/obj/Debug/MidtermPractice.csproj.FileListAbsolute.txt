@@ -1,0 +1,6 @@
+C:\Users\galax\RiderProjects\MidtermPractice\MidtermPractice\bin\Debug\MidtermPractice.exe
+C:\Users\galax\RiderProjects\MidtermPractice\MidtermPractice\bin\Debug\MidtermPractice.pdb
+C:\Users\galax\RiderProjects\MidtermPractice\MidtermPractice\obj\Debug\MidtermPractice.csprojAssemblyReference.cache
+C:\Users\galax\RiderProjects\MidtermPractice\MidtermPractice\obj\Debug\MidtermPractice.csproj.CoreCompileInputs.cache
+C:\Users\galax\RiderProjects\MidtermPractice\MidtermPractice\obj\Debug\MidtermPractice.exe
+C:\Users\galax\RiderProjects\MidtermPractice\MidtermPractice\obj\Debug\MidtermPractice.pdb
