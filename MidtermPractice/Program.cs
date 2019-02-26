@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Principal;
 
 namespace MidtermPractice
 {
@@ -6,14 +7,16 @@ namespace MidtermPractice
     {
         public static void Main(string[] args)
         {
-            int[] arr = {3, 7, 4, 2, 8, 5, 7, 1, 6, 9, 7, 0};
+            PhoneBook phoneBook = new PhoneBook();
+            phoneBook.Insert("Ruan Xun", 123456);
+            phoneBook.Insert("Liu Yongchen", 654321);
+            PhoneBookData ruanxun = phoneBook.Search("Ruan Xun");
+            PhoneBookData liuyongchen = phoneBook.Search("Liu Yongchen");
+            Console.WriteLine(ruanxun.name+": "+ruanxun.number);
+            Console.WriteLine(liuyongchen.name+": "+liuyongchen.number);
+            
 
-            QuickMergeSort(arr);
 
-            for (int i = 0; i < arr.Length; i++)
-            {
-                Console.Write(arr[i]+" ");
-            }
         }
 
         public static void MagicSort(int[] array, int magicNumber)
